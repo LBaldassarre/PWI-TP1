@@ -1,0 +1,34 @@
+.section-style {
+    height: 100vh;
+	min-height: 300px;
+	padding: 100px 0;
+}
+
+.inicio_container {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: space-evenly;
+
+}
+
+@media only screen and (min-width: 991px) {
+    .inicio_container {
+        height: auto;
+    }
+
+    .inicio_img {
+        max-width: 400px;
+    }
+
+    .navbar-collapse {
+        flex-grow: 0;
+    }
+}
+@media only screen and (max-width: 767px) {
+    .navbar-nav {
+		text-align: center;
+	}
+
+}
